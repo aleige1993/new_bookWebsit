@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+}
+*:focus{
+  outline: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 14px;
+  font-family: '微软雅黑';
+  color: #333;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p,h1,h2,h3,h4,h5,h6,dl, dt, dd, ol, ul, li,form,fieldset,input,textarea,p,blockquote,th,td{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+/*element-UI*/
+.element-breadcrumb {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.element-search {
+  margin-bottom: 10px;
+}
+.el-select {
+  width: 100%;
+}
+.el-pagination.right {
+  margin-top: 10px;
+  text-align: right;
+}
+/*element-UI*/
+
+/* my_style */
+.main{
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+.duflunt{
+  width: 100%;
+  border:1px solid rgba(220,220,220,1);
+  opacity:1;
+  border-radius:10px;
+  padding: 20px;
+  display: inline-block;
+}
+.hased{
+
+  border-bottom: 1px solid #6599F7;
+}
+.hased span{
+  font-size: 20px;
+  color:#6599F7;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+.hased img{
+  vertical-align:middle;
+  margin-bottom: 10px;
+}
+.hased img:last-child{
+  margin-top: 5px;
+}
+.conents ul li{
+  margin-top: 20px;
+}
+.conents ul li a{
+  display: flex;
+  justify-content: space-between;
+}
+.conents ul li a .soan_a{
+  width: 70%;
+  overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.conents ul li a .soan_b{
+  width: 20%;
+  text-align: right;
+  color: #666;
+}
+.conents ul li a:hover .soan_a,.conents ul li a:hover .soan_b{
+  color: #6599F7;
+}
