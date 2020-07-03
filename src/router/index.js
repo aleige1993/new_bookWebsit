@@ -15,7 +15,10 @@ export default new Router({
                 { path: '/InfoDetails', name: 'InfoDetails', component: resolve => { require(['@/pages/InfoDetails'], resolve) } },
                 { path: '/recommend', name: 'recommend', component: resolve => { require(['@/pages/tuijian'], resolve) } },
                 { path: '/recommendDetails', name: 'recommendDetails', component: resolve => { require(['@/pages/tuijian/tjDateils'], resolve) } },
+<<<<<<< HEAD
                 { path: '/Information', name: 'Information', component: resolve => { require(['@/pages/Information'], resolve) } },
+=======
+>>>>>>> 2c816677f9cc5b4397771c287792294088b7c4ae
             ]
         },
         
