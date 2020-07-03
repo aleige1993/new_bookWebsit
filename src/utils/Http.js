@@ -4,7 +4,7 @@ import axios from 'axios';
 // import userLogin from './userLogin';
 
 // 处理Raw纯json字符串得请求
-// axios.defaults.baseURL = config.HTTPBASEURL;
+axios.defaults.baseURL = 'http://book.thinkleak.com';
 axios.defaults.headers.common['Content-Type'] = 'application/json;charset=UTF-8';
 
 class Http {

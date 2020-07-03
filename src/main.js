@@ -10,8 +10,8 @@ Vue.prototype.$echarts = echarts;
 Vue.use(elementUI);
 
 Vue.config.productionTip = false
-// import Http from './utils/Http';
-// Vue.prototype.$http = new Http();
+import Http from './utils/Http';
+Vue.prototype.$http = new Http();
 
 new Vue({
   render: h => h(App),
