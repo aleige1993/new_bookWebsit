@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import elementUI from 'element-ui'
+import echarts from 'echarts'
+import china from 'echarts/map/json/china.json'
+echarts.registerMap('china', china)
+Vue.prototype.$echarts = echarts;
 Vue.use(elementUI);
 
 Vue.config.productionTip = false

@@ -6,8 +6,8 @@
         <div class="tupianbox">
           <img src="../../assets/image_sj_jcys.png" alt />
           <div class="ziduan">
-            <p>全国中小学图书装备</p>
-            <p>公共服务平台</p>
+            <p>全国中小学图书馆</p>
+            <p>图书信息平台</p>
           </div>
         </div>
         <div class="inputbox">
@@ -24,25 +24,9 @@
             <img :src="index==indexAT?item.imgactive:item.img" />
             <router-link  :to="item.link" >{{item.name}}</router-link>
             </li>
-            <!-- <li class="links">
-            <img src="../../assets/fagui.png" />
-            <router-link  to="/" >政策法规</router-link>
-            </li>
-            <li class="links">
-            <img src="../../assets/gonggao.png" />
-            <router-link  to="/" >信息公告</router-link>
-            </li>
-            <li class="links">
-            <img src="../../assets/tuijian.png" />
-            <router-link  to="/" >推荐书目</router-link>
-            </li>
-            <li class="links">
-            <img src="../../assets/zhanshi.png" />
-            <router-link  to="/" >信息展示</router-link>
-            </li> -->
         </div>
         <div class="nav_right">
-            <a>登录</a> <span>|</span> <a>注册</a>
+            <a href="https://z3ur6d.axshare.com">登录</a> <span>|</span> <a href="https://z3ur6d.axshare.com">注册</a>
         </div>
     </div>
   </div>
@@ -82,14 +66,14 @@ export default {
             imgactive: require('../../assets/tuijian_2.png'),
             name:'推荐书目',
             index:3,
-            link:'/InfoList'
+            link:'/recommend'
           },
           {
             img: require('../../assets/zhanshi.png'),
             imgactive: require('../../assets/zhanshi_2.png'),
             name:'信息展示',
             index:4,
-            link:'/InfoList'
+            link:'/Information'
           }
         ]
       };
@@ -131,11 +115,11 @@ export default {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  height: 88px;
+  height: 66px;
 }
 li.actives a{
   color: #C4131C;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .links{
   display: inline-block;
@@ -218,7 +202,7 @@ color: #6599F7;
 }
 .bures{
   width:100%;
-  height:88px;
+  height:66px;
   background:linear-gradient(180deg,rgba(111,166,255,1) 0%,rgba(75,118,227,1) 100%);
   opacity:1;
 }

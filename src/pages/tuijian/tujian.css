@@ -1,0 +1,99 @@
+.pagechanges{
+    text-align: right;
+    margin: 100px 0;
+}
+.span_a{
+  display: inline-block;
+  width: 30%;
+}
+.tou{
+  color: #333;
+}
+.di{
+  color:#666;
+  margin-left: 10px;
+}
+.tushusoso{
+  border:1px solid rgba(220,220,220,1);
+border-radius:10px;
+padding: 30px;
+margin: 40px 0;
+}
+.cxs{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.inpitchan >>> .el-input-group__append{
+  background-color: #1890FF !important;
+  border: 1px solid #1890FF !important;
+}
+.upcalss{
+  letter-spacing: 5px;
+  color: #fff !important;
+}
+.text_open{
+  margin-top: 20px;
+}
+.text_open a{
+  display: inline-block;
+  margin-right: 60px;
+  color: #6599F7;
+  font-size: 13px;
+}
+.text_open a:hover{
+  color: #C4131C;
+}
+.slecst_box{
+  margin-top: 40px;
+  width: 460px;
+}
+.sel_pam{
+  margin-top: 20px;
+  display: flex;
+}
+.sel_pam span{
+  line-height: 40px;
+}
+.sel_pam:first-child span{
+  width: 70px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.sel_pam:last-child span{
+  width: 100px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.pp1{
+  flex: 1;
+}
+.titel_p{
+  margin: 30px;
+  font-size: 16px;
+}
+.list_all{
+  padding:15px 30px;
+  border:1px solid rgba(220,220,220,1);
+border-radius:10px;
+margin-bottom: 20px;
+display: flex;
+cursor: pointer;
+}
+.p_sa{
+  flex: 1;
+padding-top: 20px;
+}
+.p_sa li{
+  margin-bottom: 15px;
+}
+.p_sa li:last-child{
+  margin-bottom: 0;
+}
+.img_sa{
+  width: 148px;
+  height: 148px;
+}
+.img_sa img{
+    width: 100%;
+    height: 100%;
+}

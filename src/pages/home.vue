@@ -232,9 +232,10 @@ export default {
 }
 .style4 .hased img {
   margin-bottom: 5px;
+  margin-top: 0;
 }
 .style4 .hased span {
-  font-size: 16px;
+  font-size: 20px;
 }
 .panl3 {
   margin-top: 20px;
